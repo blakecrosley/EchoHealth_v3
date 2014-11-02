@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		259DDBD41A05D63A00E4C9E0 /* ECHOPedometerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 259DDBD31A05D63A00E4C9E0 /* ECHOPedometerVC.m */; };
+		259DDBDA1A05D74D00E4C9E0 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 259DDBD71A05D74D00E4C9E0 /* SVProgressHUD.bundle */; };
+		259DDBDB1A05D74D00E4C9E0 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 259DDBD91A05D74D00E4C9E0 /* SVProgressHUD.m */; };
+		259DDBE11A05DBDD00E4C9E0 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259DDBE01A05DBDD00E4C9E0 /* HealthKit.framework */; };
+		259DDBE51A06C2EF00E4C9E0 /* CommonButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 259DDBE41A06C2EF00E4C9E0 /* CommonButton.m */; };
+		259DDBE61A06C42200E4C9E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259DDBDE1A05DBCD00E4C9E0 /* Foundation.framework */; };
+		259DDBE81A06C42800E4C9E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259DDBE71A06C42800E4C9E0 /* UIKit.framework */; };
+		259DDBEA1A06C46D00E4C9E0 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259DDBE91A06C46D00E4C9E0 /* CoreMotion.framework */; };
+		259DDC021A06D2FD00E4C9E0 /* AAPLActivityDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 259DDBFF1A06D2FD00E4C9E0 /* AAPLActivityDataManager.m */; };
+		259DDC031A06D2FD00E4C9E0 /* AAPLMotionActivityQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 259DDC011A06D2FD00E4C9E0 /* AAPLMotionActivityQuery.m */; };
 		25E255C51A05CDB700A0D633 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E255C41A05CDB700A0D633 /* main.m */; };
 		25E255C81A05CDB700A0D633 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E255C71A05CDB700A0D633 /* AppDelegate.m */; };
 		25E255CB1A05CDB700A0D633 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E255CA1A05CDB700A0D633 /* FirstViewController.m */; };
@@ -15,6 +25,8 @@
 		25E255D31A05CDB700A0D633 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25E255D21A05CDB700A0D633 /* Images.xcassets */; };
 		25E255D61A05CDB700A0D633 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25E255D41A05CDB700A0D633 /* LaunchScreen.xib */; };
 		25E255E21A05CDB800A0D633 /* EchoHealthTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E255E11A05CDB800A0D633 /* EchoHealthTests.m */; };
+		25E39AC31A06D6880070213D /* ECHOHistoryTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E39AC21A06D6880070213D /* ECHOHistoryTVC.m */; };
+		25E39AC61A06D8C00070213D /* ECHOHistoryDetailTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E39AC51A06D8C00070213D /* ECHOHistoryDetailTVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +40,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		259DDBD21A05D63A00E4C9E0 /* ECHOPedometerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ECHOPedometerVC.h; path = Views/ECHOPedometerVC.h; sourceTree = "<group>"; };
+		259DDBD31A05D63A00E4C9E0 /* ECHOPedometerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ECHOPedometerVC.m; path = Views/ECHOPedometerVC.m; sourceTree = "<group>"; };
+		259DDBD71A05D74D00E4C9E0 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		259DDBD81A05D74D00E4C9E0 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		259DDBD91A05D74D00E4C9E0 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		259DDBDD1A05DB7500E4C9E0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		259DDBDE1A05DBCD00E4C9E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		259DDBE01A05DBDD00E4C9E0 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		259DDBE31A06C2EF00E4C9E0 /* CommonButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonButton.h; sourceTree = "<group>"; };
+		259DDBE41A06C2EF00E4C9E0 /* CommonButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonButton.m; sourceTree = "<group>"; };
+		259DDBE71A06C42800E4C9E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		259DDBE91A06C46D00E4C9E0 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		259DDBFE1A06D2FD00E4C9E0 /* AAPLActivityDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AAPLActivityDataManager.h; path = AAPLMotion/AAPLActivityDataManager.h; sourceTree = "<group>"; };
+		259DDBFF1A06D2FD00E4C9E0 /* AAPLActivityDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AAPLActivityDataManager.m; path = AAPLMotion/AAPLActivityDataManager.m; sourceTree = "<group>"; };
+		259DDC001A06D2FD00E4C9E0 /* AAPLMotionActivityQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AAPLMotionActivityQuery.h; path = AAPLMotion/AAPLMotionActivityQuery.h; sourceTree = "<group>"; };
+		259DDC011A06D2FD00E4C9E0 /* AAPLMotionActivityQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AAPLMotionActivityQuery.m; path = AAPLMotion/AAPLMotionActivityQuery.m; sourceTree = "<group>"; };
 		25E255BF1A05CDB700A0D633 /* EchoHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EchoHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25E255C31A05CDB700A0D633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25E255C41A05CDB700A0D633 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -43,6 +71,10 @@
 		25E255DB1A05CDB800A0D633 /* EchoHealthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EchoHealthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25E255E01A05CDB800A0D633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25E255E11A05CDB800A0D633 /* EchoHealthTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EchoHealthTests.m; sourceTree = "<group>"; };
+		25E39AC11A06D6870070213D /* ECHOHistoryTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECHOHistoryTVC.h; sourceTree = "<group>"; };
+		25E39AC21A06D6880070213D /* ECHOHistoryTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECHOHistoryTVC.m; sourceTree = "<group>"; };
+		25E39AC41A06D8C00070213D /* ECHOHistoryDetailTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECHOHistoryDetailTVC.h; sourceTree = "<group>"; };
+		25E39AC51A06D8C00070213D /* ECHOHistoryDetailTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECHOHistoryDetailTVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +82,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				259DDBEA1A06C46D00E4C9E0 /* CoreMotion.framework in Frameworks */,
+				259DDBE81A06C42800E4C9E0 /* UIKit.framework in Frameworks */,
+				259DDBE61A06C42200E4C9E0 /* Foundation.framework in Frameworks */,
+				259DDBE11A05DBDD00E4C9E0 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,9 +99,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		259DDBD11A05D46500E4C9E0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				259DDBD21A05D63A00E4C9E0 /* ECHOPedometerVC.h */,
+				259DDBD31A05D63A00E4C9E0 /* ECHOPedometerVC.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		259DDBD51A05D73800E4C9E0 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				259DDBF11A06D28200E4C9E0 /* AAPLMotion */,
+				259DDBD61A05D74D00E4C9E0 /* SVProgressHUD */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		259DDBD61A05D74D00E4C9E0 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				259DDBD71A05D74D00E4C9E0 /* SVProgressHUD.bundle */,
+				259DDBD81A05D74D00E4C9E0 /* SVProgressHUD.h */,
+				259DDBD91A05D74D00E4C9E0 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		259DDBE21A06C2B000E4C9E0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				259DDBE31A06C2EF00E4C9E0 /* CommonButton.h */,
+				259DDBE41A06C2EF00E4C9E0 /* CommonButton.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		259DDBF11A06D28200E4C9E0 /* AAPLMotion */ = {
+			isa = PBXGroup;
+			children = (
+				259DDBFE1A06D2FD00E4C9E0 /* AAPLActivityDataManager.h */,
+				259DDBFF1A06D2FD00E4C9E0 /* AAPLActivityDataManager.m */,
+				259DDC001A06D2FD00E4C9E0 /* AAPLMotionActivityQuery.h */,
+				259DDC011A06D2FD00E4C9E0 /* AAPLMotionActivityQuery.m */,
+			);
+			name = AAPLMotion;
+			sourceTree = "<group>";
+		};
 		25E255B61A05CDB700A0D633 = {
 			isa = PBXGroup;
 			children = (
+				259DDBE91A06C46D00E4C9E0 /* CoreMotion.framework */,
+				259DDBE71A06C42800E4C9E0 /* UIKit.framework */,
+				259DDBE01A05DBDD00E4C9E0 /* HealthKit.framework */,
+				259DDBDE1A05DBCD00E4C9E0 /* Foundation.framework */,
+				259DDBD51A05D73800E4C9E0 /* libs */,
 				25E255C11A05CDB700A0D633 /* EchoHealth */,
 				25E255DE1A05CDB800A0D633 /* EchoHealthTests */,
 				25E255C01A05CDB700A0D633 /* Products */,
@@ -84,6 +173,8 @@
 		25E255C11A05CDB700A0D633 /* EchoHealth */ = {
 			isa = PBXGroup;
 			children = (
+				259DDBE21A06C2B000E4C9E0 /* Common */,
+				259DDBD11A05D46500E4C9E0 /* Views */,
 				25E255C61A05CDB700A0D633 /* AppDelegate.h */,
 				25E255C71A05CDB700A0D633 /* AppDelegate.m */,
 				25E255C91A05CDB700A0D633 /* FirstViewController.h */,
@@ -94,6 +185,10 @@
 				25E255D21A05CDB700A0D633 /* Images.xcassets */,
 				25E255D41A05CDB700A0D633 /* LaunchScreen.xib */,
 				25E255C21A05CDB700A0D633 /* Supporting Files */,
+				25E39AC11A06D6870070213D /* ECHOHistoryTVC.h */,
+				25E39AC21A06D6880070213D /* ECHOHistoryTVC.m */,
+				25E39AC41A06D8C00070213D /* ECHOHistoryDetailTVC.h */,
+				25E39AC51A06D8C00070213D /* ECHOHistoryDetailTVC.m */,
 			);
 			path = EchoHealth;
 			sourceTree = "<group>";
@@ -103,6 +198,7 @@
 			children = (
 				25E255C31A05CDB700A0D633 /* Info.plist */,
 				25E255C41A05CDB700A0D633 /* main.m */,
+				259DDBDD1A05DB7500E4C9E0 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -207,6 +303,7 @@
 				25E255D11A05CDB700A0D633 /* Main.storyboard in Resources */,
 				25E255D61A05CDB700A0D633 /* LaunchScreen.xib in Resources */,
 				25E255D31A05CDB700A0D633 /* Images.xcassets in Resources */,
+				259DDBDA1A05D74D00E4C9E0 /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,9 +322,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				25E255CE1A05CDB700A0D633 /* SecondViewController.m in Sources */,
+				259DDBD41A05D63A00E4C9E0 /* ECHOPedometerVC.m in Sources */,
+				25E39AC61A06D8C00070213D /* ECHOHistoryDetailTVC.m in Sources */,
+				259DDC031A06D2FD00E4C9E0 /* AAPLMotionActivityQuery.m in Sources */,
 				25E255C81A05CDB700A0D633 /* AppDelegate.m in Sources */,
 				25E255CB1A05CDB700A0D633 /* FirstViewController.m in Sources */,
+				25E39AC31A06D6880070213D /* ECHOHistoryTVC.m in Sources */,
+				259DDC021A06D2FD00E4C9E0 /* AAPLActivityDataManager.m in Sources */,
 				25E255C51A05CDB700A0D633 /* main.m in Sources */,
+				259DDBDB1A05D74D00E4C9E0 /* SVProgressHUD.m in Sources */,
+				259DDBE51A06C2EF00E4C9E0 /* CommonButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +455,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = EchoHealth/PrefixHeader.pch;
 				INFOPLIST_FILE = EchoHealth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -361,6 +466,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = EchoHealth/PrefixHeader.pch;
 				INFOPLIST_FILE = EchoHealth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -420,6 +526,7 @@
 				25E255E71A05CDB800A0D633 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		25E255E81A05CDB800A0D633 /* Build configuration list for PBXNativeTarget "EchoHealthTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +535,7 @@
 				25E255EA1A05CDB800A0D633 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

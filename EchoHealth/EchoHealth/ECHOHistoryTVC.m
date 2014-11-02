@@ -1,28 +1,31 @@
 //
-//  FirstViewController.m
+//  ECHOHistoryTVC.m
 //  EchoHealth
 //
-//  Created by Blake Crosley on 11/1/14.
+//  Created by Blake Crosley on 11/2/14.
 //  Copyright (c) 2014 Blake Crosley. All rights reserved.
 //
 
-#import "FirstViewController.h"
+
+
 @import CoreMotion;
+
+#import "ECHOHistoryTVC.h"
 
 #import "AAPLMotionActivityQuery.h"
 #import "AAPLActivityDataManager.h"
 
-
-@interface FirstViewController () {
+@interface ECHOHistoryTVC () {
     NSMutableArray *_objects;
     NSMutableArray *_stepCounts;
     AAPLActivityDataManager *_dataManager;
 }
 @end
 
-@implementation FirstViewController
+@implementation ECHOHistoryTVC
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     
     if (!_objects) {

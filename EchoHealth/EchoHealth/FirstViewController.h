@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Blake Crosley. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
 @interface FirstViewController : UIViewController
 

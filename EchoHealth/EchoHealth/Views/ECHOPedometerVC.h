@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  ECHOPedometerVC.h
 //  EchoHealth
 //
 //  Created by Blake Crosley on 11/1/14.
@@ -7,9 +7,8 @@
 //
 
 @import UIKit;
+@import HealthKit;
 
-@interface SecondViewController : UIViewController
-
+@interface ECHOPedometerVC : UIViewController
 
 @end
-
